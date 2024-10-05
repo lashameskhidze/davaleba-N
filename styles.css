@@ -1,0 +1,77 @@
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    gap: 20px;
+  }
+  .item{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+  }
+  .upper{
+    position: relative;
+  }
+  .lower{
+    display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 30px;
+  }
+  .infoicon{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nameD{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .gradusi{
+    display:flex;
+    justify-content: space-between;
+    color: var(--Cards-4-info-text, #A5ADBB);
+  }
+  .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .price > div{
+    display: flex;
+    gap: 15px;
+  }
+
+  button{
+    background-color: rgb(46, 204, 113, 1);
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    color: var(--White, #FFF);
+  }
+  .secondprice{
+    color: red;
+    text-decoration: line-through;
+    font-size: 20px;
+font-style: normal;
+font-weight: 400;
+  }
+  .firstprice{
+    font-size: 28px;
+font-style: normal;
+font-weight: 400;
+  }
+  .paragraph{
+    color: var(--Additional-text, #6E798C);
+  }
